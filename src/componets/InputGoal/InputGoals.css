@@ -1,0 +1,40 @@
+div.form {
+  width: 400px;
+  height: 100px;
+  border-radius: 12px;
+  box-shadow: 0 0 1px black;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-control input[type="text"] {
+  height: 30px;
+  margin: 10px 0;
+  outline: none;
+  border: 1px solid rgb(184, 178, 178);
+  font-size: 18px;
+}
+
+.form-control input[type="text"]:focus {
+  background-color: rgb(254, 214, 221);
+  border: 1px solid rgb(42, 42, 42);
+}
+
+.form-control.invalid label {
+  color: red;
+}
+
+.form-control.invalid button {
+  background-color: red;
+}

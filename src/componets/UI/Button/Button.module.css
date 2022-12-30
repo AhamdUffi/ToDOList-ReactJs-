@@ -1,0 +1,20 @@
+button {
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+  color: white;
+  background-color: #c017de;
+  border: none;
+}
+
+button:hover,
+button:active {
+  cursor: pointer;
+  background-color: #cc32e8;
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    width: 100%;
+  }
+}
